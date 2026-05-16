@@ -1,0 +1,13 @@
+# Credentials — never commit
+config.php
+
+# PHPMailer (manually downloaded — add to server directly)
+PHPMailer/
+
+# Design source files
+*.ai
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
