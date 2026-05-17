@@ -2,8 +2,9 @@ Options -Indexes
 
 RewriteEngine On
 
-# Pass admin and employee directories through untouched
+# Pass admin/employee directories and employee-login through untouched
 RewriteRule ^(admin|employee)(/.*)?$ - [L]
+RewriteRule ^employee-login\.php$ - [L]
 
 # Force HTTPS — uncomment when SSL certificate is active
 # RewriteCond %{HTTPS} off
