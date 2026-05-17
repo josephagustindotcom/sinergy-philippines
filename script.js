@@ -149,6 +149,115 @@ if (applyModal) {
   });
 }
 
+// AI Chat Widget
+const chatToggle   = document.getElementById("chatToggle");
+const chatWidget   = document.getElementById("chatWidget");
+const chatClose    = document.getElementById("chatClose");
+const chatMessages = document.getElementById("chatMessages");
+const chatInput    = document.getElementById("chatInput");
+const chatSend     = document.getElementById("chatSend");
+const chatBadge    = document.getElementById("chatBadge");
+
+if (chatToggle && chatWidget) {
+  var chatHistory = [];
+  var chatOpen    = false;
+
+  function openChat() {
+    chatOpen = true;
+    chatWidget.classList.add("is-open");
+    chatWidget.setAttribute("aria-hidden", "false");
+    chatToggle.classList.add("is-open");
+    chatBadge.style.display = "none";
+    chatInput.focus();
+  }
+
+  function closeChat() {
+    chatOpen = false;
+    chatWidget.classList.remove("is-open");
+    chatWidget.setAttribute("aria-hidden", "true");
+    chatToggle.classList.remove("is-open");
+  }
+
+  chatToggle.addEventListener("click", function () {
+    chatOpen ? closeChat() : openChat();
+  });
+
+  chatClose.addEventListener("click", closeChat);
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && chatOpen) closeChat();
+  });
+
+  function appendMessage(role, text) {
+    var div = document.createElement("div");
+    div.className = "chat-msg " + role;
+    div.textContent = text;
+    chatMessages.appendChild(div);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+    return div;
+  }
+
+  function showTyping() {
+    var div = document.createElement("div");
+    div.className = "chat-msg assistant chat-typing";
+    div.innerHTML = "<span></span><span></span><span></span>";
+    chatMessages.appendChild(div);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+    return div;
+  }
+
+  function sendMessage() {
+    var text = chatInput.value.trim();
+    if (!text) return;
+
+    chatInput.value = "";
+    chatSend.disabled = true;
+    chatInput.disabled = true;
+
+    appendMessage("user", text);
+    chatHistory.push({ role: "user", content: text });
+
+    var typing = showTyping();
+
+    fetch("chat-handler.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ messages: chatHistory }),
+    })
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        typing.remove();
+        if (data.error) {
+          appendMessage("assistant", data.error);
+        } else {
+          appendMessage("assistant", data.message);
+          chatHistory.push({ role: "assistant", content: data.message });
+          if (data.booking_submitted) {
+            appendMessage("assistant", "A confirmation has been sent to your email. We will be in touch shortly to confirm your call.");
+          }
+        }
+      })
+      .catch(function () {
+        typing.remove();
+        appendMessage("assistant", "Something went wrong. Please email us at hello@sinergy.com");
+      })
+      .finally(function () {
+        chatSend.disabled = false;
+        chatInput.disabled = false;
+        chatInput.focus();
+      });
+  }
+
+  chatSend.addEventListener("click", sendMessage);
+
+  chatInput.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
+    }
+  });
+}
+
 const updatedDateEl = document.getElementById("updatedDate");
 if (updatedDateEl) {
   updatedDateEl.textContent = new Date().toLocaleDateString("en-US", {

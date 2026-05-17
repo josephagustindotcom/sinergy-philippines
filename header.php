@@ -22,14 +22,14 @@
 
   <header class="site-header">
     <div class="container nav-wrap">
-      <a href="index.php" class="logo" aria-label="Sinergy Home">
+      <a href="/" class="logo" aria-label="Sinergy Home">
         <img src="img/sinergy-logo.png" alt="Sinergy logo" class="site-logo-img" />
       </a>
 
       <?php include 'nav.php'; ?>
 
       <div class="nav-actions">
-        <a href="contact.php" class="btn btn-primary">Get a Quote</a>
+        <a href="contact" class="btn btn-primary">Get a Quote</a>
 
         <button class="mobile-toggle" id="mobileToggle" aria-label="Open mobile menu" aria-expanded="false">
           <span></span>

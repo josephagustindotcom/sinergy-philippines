@@ -19,7 +19,7 @@
 
           <div class="hero-actions">
             <a href="#contact-form" class="btn btn-primary">Request a Quote</a>
-            <a href="services.php" class="btn btn-secondary">Explore Services</a>
+            <a href="services" class="btn btn-secondary">Explore Services</a>
           </div>
 
           <div class="trust-row">

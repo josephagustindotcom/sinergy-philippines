@@ -18,7 +18,7 @@
         <div class="policy-meta">
           <span class="meta-pill"><span class="check">✓</span> Last Updated: <span id="updatedDate"></span></span>
           <span class="meta-pill"><span class="check">✓</span> Website Privacy Notice</span>
-          <span class="meta-pill"><span class="check">✓</span> Contact: hello@sinergy.com</span>
+          <span class="meta-pill"><span class="check">✓</span> Contact: admin@sinergyph.com</span>
         </div>
       </div>
     </section>
@@ -240,8 +240,8 @@
 
             <div class="contact-box">
               <h3>Sinergy Privacy Contact</h3>
-              <p>Email: <a href="mailto:hello@sinergy.com">hello@sinergy.com</a></p>
-              <p>Careers: <a href="mailto:careers@sinergy.com">careers@sinergy.com</a></p>
+              <p>Email: <a href="mailto:admin@sinergyph.com">admin@sinergyph.com</a></p>
+              <p>Careers: <a href="mailto:admin@sinergyph.com">admin@sinergyph.com</a></p>
               <p>Location: Philippines-based outsourcing support for global businesses</p>
             </div>
           </section>

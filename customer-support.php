@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Build Your Support Team</a>
+            <a href="contact" class="btn btn-primary">Build Your Support Team</a>
             <a href="#support-tasks" class="btn btn-secondary">View Support Tasks</a>
           </div>
 
@@ -82,7 +82,7 @@
             Growth usually brings more questions, more complaints, more order updates, more tickets,
             and more pressure on your internal team. Without the right support structure, response quality drops fast.
           </p>
-          <a href="contact.php" class="btn btn-primary">Talk to Sinergy</a>
+          <a href="contact" class="btn btn-primary">Talk to Sinergy</a>
         </div>
 
         <div class="intro-list">
@@ -333,25 +333,25 @@
           <article class="related-card">
             <h3>Technical Support</h3>
             <p>For product troubleshooting, helpdesk tickets, issue triage, and technical guidance.</p>
-            <a href="technical-support.php">Learn More →</a>
+            <a href="technical-support">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Sales Services</h3>
             <p>For lead generation, outbound calling, appointment setting, and follow-up support.</p>
-            <a href="sales-services.php">Learn More →</a>
+            <a href="sales-services">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Data Entry & Verification</h3>
             <p>For cleaner records, CRM updates, order data, verification, and admin support.</p>
-            <a href="data-entry-verification.php">Learn More →</a>
+            <a href="data-entry-verification">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Data Annotation</h3>
             <p>For AI datasets that require labeling, tagging, classification, and quality control.</p>
-            <a href="data-annotation.php">Learn More →</a>
+            <a href="data-annotation">Learn More →</a>
           </article>
         </div>
       </div>
@@ -369,7 +369,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Build Your Support Team</a>
+          <a href="contact" class="btn btn-primary">Build Your Support Team</a>
         </div>
       </div>
     </section>

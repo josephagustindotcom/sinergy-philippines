@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Discuss Your Annotation Project</a>
+            <a href="contact" class="btn btn-primary">Discuss Your Annotation Project</a>
             <a href="#annotation-tasks" class="btn btn-secondary">View Annotation Tasks</a>
           </div>
 
@@ -83,7 +83,7 @@
             Data annotation is not just manual work. It requires clear guidelines, trained reviewers,
             quality checks, and repeatable workflows.
           </p>
-          <a href="contact.php" class="btn btn-primary">Start Annotation Setup</a>
+          <a href="contact" class="btn btn-primary">Start Annotation Setup</a>
         </div>
 
         <div class="intro-list">
@@ -334,25 +334,25 @@
           <article class="related-card">
             <h3>Data Entry & Verification</h3>
             <p>For data cleanup, record verification, CRM updates, form processing, product data, and QA checks.</p>
-            <a href="data-entry-verification.php">Learn More →</a>
+            <a href="data-entry-verification">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Technical Support</h3>
             <p>For helpdesk tickets, troubleshooting, product guidance, issue triage, and escalation.</p>
-            <a href="technical-support.php">Learn More →</a>
+            <a href="technical-support">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Customer Support</h3>
             <p>For customer inquiries, email, chat, phone, order updates, complaints, and follow-ups.</p>
-            <a href="customer-support.php">Learn More →</a>
+            <a href="customer-support">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Sales Services</h3>
             <p>For lead generation, outbound calling, appointment setting, CRM updates, and prospect follow-up.</p>
-            <a href="sales-services.php">Learn More →</a>
+            <a href="sales-services">Learn More →</a>
           </article>
         </div>
       </div>
@@ -370,7 +370,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Discuss Your Annotation Project</a>
+          <a href="contact" class="btn btn-primary">Discuss Your Annotation Project</a>
         </div>
       </div>
     </section>

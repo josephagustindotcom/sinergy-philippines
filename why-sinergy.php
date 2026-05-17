@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Work With Sinergy</a>
+            <a href="contact" class="btn btn-primary">Work With Sinergy</a>
             <a href="#why-choose-us" class="btn btn-secondary">See Why Clients Choose Us</a>
           </div>
 
@@ -346,7 +346,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Work With Sinergy</a>
+          <a href="contact" class="btn btn-primary">Work With Sinergy</a>
         </div>
       </div>
     </section>

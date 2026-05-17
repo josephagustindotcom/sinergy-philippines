@@ -18,8 +18,8 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Get a Quote</a>
-            <a href="services.php" class="btn btn-secondary">Explore Services</a>
+            <a href="contact" class="btn btn-primary">Get a Quote</a>
+            <a href="services" class="btn btn-secondary">Explore Services</a>
           </div>
 
           <div class="trust-line">
@@ -93,7 +93,7 @@
             Support tickets, admin tasks, sales follow-ups, data backlogs, and customer questions
             can quickly pull your team away from higher-value work.
           </p>
-          <a href="contact.php" class="btn btn-primary">Talk to Sinergy</a>
+          <a href="contact" class="btn btn-primary">Talk to Sinergy</a>
         </div>
 
         <div class="pain-list">
@@ -141,35 +141,35 @@
             <div class="service-icon">&#128172;</div>
             <h3>Customer Support</h3>
             <p>Responsive, empathetic support across email, chat, phone, tickets, and customer follow-ups.</p>
-            <a href="customer-support.php" class="learn-link">Learn More &rarr;</a>
+            <a href="customer-support" class="learn-link">Learn More &rarr;</a>
           </article>
 
           <article class="service-card">
             <div class="service-icon">&#128296;</div>
             <h3>Technical Support</h3>
             <p>Frontline troubleshooting, product guidance, issue triage, and escalation support.</p>
-            <a href="technical-support.php" class="learn-link">Learn More &rarr;</a>
+            <a href="technical-support" class="learn-link">Learn More &rarr;</a>
           </article>
 
           <article class="service-card">
             <div class="service-icon">&#128200;</div>
             <h3>Sales Services</h3>
             <p>Lead generation, outbound calling, appointment setting, CRM updates, and prospect follow-up.</p>
-            <a href="sales-services.php" class="learn-link">Learn More &rarr;</a>
+            <a href="sales-services" class="learn-link">Learn More &rarr;</a>
           </article>
 
           <article class="service-card">
             <div class="service-icon">&#9989;</div>
             <h3>Data Entry &amp; Verification</h3>
             <p>Accurate data processing, record updates, information verification, and quality checks.</p>
-            <a href="data-entry-verification.php" class="learn-link">Learn More &rarr;</a>
+            <a href="data-entry-verification" class="learn-link">Learn More &rarr;</a>
           </article>
 
           <article class="service-card">
             <div class="service-icon">&#129504;</div>
             <h3>Data Annotation</h3>
             <p>Image, text, audio, and structured data labeling for AI and machine learning projects.</p>
-            <a href="data-annotation.php" class="learn-link">Learn More &rarr;</a>
+            <a href="data-annotation" class="learn-link">Learn More &rarr;</a>
           </article>
         </div>
       </div>
@@ -349,7 +349,7 @@
             partnerships built for long-term success.
           </p>
 
-          <a href="about.php" class="btn btn-dark">Learn More About Sinergy</a>
+          <a href="about" class="btn btn-dark">Learn More About Sinergy</a>
         </div>
       </div>
     </section>
@@ -366,7 +366,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Get a Custom Quote</a>
+          <a href="contact" class="btn btn-primary">Get a Custom Quote</a>
         </div>
       </div>
     </section>

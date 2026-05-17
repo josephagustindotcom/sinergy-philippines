@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Start Your Outsourcing Plan</a>
+            <a href="contact" class="btn btn-primary">Start Your Outsourcing Plan</a>
             <a href="#process-overview" class="btn btn-secondary">View the Process</a>
           </div>
 
@@ -370,7 +370,7 @@
             A team cannot perform well if the business gives vague expectations, no documentation,
             no access, and no feedback. The setup needs collaboration from both sides.
           </p>
-          <a href="contact.php" class="btn btn-primary">Prepare Your Team Setup</a>
+          <a href="contact" class="btn btn-primary">Prepare Your Team Setup</a>
         </div>
 
         <div class="requirement-list">
@@ -460,7 +460,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Start Your Outsourcing Plan</a>
+          <a href="contact" class="btn btn-primary">Start Your Outsourcing Plan</a>
         </div>
       </div>
     </section>

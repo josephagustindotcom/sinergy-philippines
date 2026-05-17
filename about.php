@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Work With Sinergy</a>
+            <a href="contact" class="btn btn-primary">Work With Sinergy</a>
             <a href="#our-story" class="btn btn-secondary">Read Our Story</a>
           </div>
 
@@ -290,7 +290,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Work With Sinergy</a>
+          <a href="contact" class="btn btn-primary">Work With Sinergy</a>
         </div>
       </div>
     </section>

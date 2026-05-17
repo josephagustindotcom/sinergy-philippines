@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Outsource Data Work</a>
+            <a href="contact" class="btn btn-primary">Outsource Data Work</a>
             <a href="#data-tasks" class="btn btn-secondary">View Data Tasks</a>
           </div>
 
@@ -83,7 +83,7 @@
             problems that should have been handled earlier. Clean data improves reporting, customer service,
             sales follow-up, admin workflows, and daily decision-making.
           </p>
-          <a href="contact.php" class="btn btn-primary">Start Data Support Setup</a>
+          <a href="contact" class="btn btn-primary">Start Data Support Setup</a>
         </div>
 
         <div class="intro-list">
@@ -334,25 +334,25 @@
           <article class="related-card">
             <h3>Customer Support</h3>
             <p>For customer inquiries, email, chat, phone, order updates, complaints, and follow-ups.</p>
-            <a href="customer-support.php">Learn More →</a>
+            <a href="customer-support">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Technical Support</h3>
             <p>For helpdesk tickets, troubleshooting, product guidance, issue triage, and escalation.</p>
-            <a href="technical-support.php">Learn More →</a>
+            <a href="technical-support">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Sales Services</h3>
             <p>For lead generation, outbound calling, appointment setting, CRM updates, and prospect follow-up.</p>
-            <a href="sales-services.php">Learn More →</a>
+            <a href="sales-services">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Data Annotation</h3>
             <p>For AI and machine learning datasets that require tagging, labeling, classification, and quality checks.</p>
-            <a href="data-annotation.php">Learn More →</a>
+            <a href="data-annotation">Learn More →</a>
           </article>
         </div>
       </div>
@@ -370,7 +370,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Outsource Data Work</a>
+          <a href="contact" class="btn btn-primary">Outsource Data Work</a>
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@
         <div class="policy-meta">
           <span class="meta-pill"><span class="check">✓</span> Last Updated: <span id="updatedDate"></span></span>
           <span class="meta-pill"><span class="check">✓</span> Website Terms</span>
-          <span class="meta-pill"><span class="check">✓</span> Contact: hello@sinergy.com</span>
+          <span class="meta-pill"><span class="check">✓</span> Contact: admin@sinergyph.com</span>
         </div>
       </div>
     </section>
@@ -48,13 +48,7 @@
         </aside>
 
         <article class="terms-content">
-          <div class="legal-note">
-            <strong>Important:</strong> This is a starter Terms of Service template for the Sinergy website.
-            Before publishing, replace placeholder details and have the final version reviewed by a qualified legal professional.
-            Do not rely on this as final legal advice.
-          </div>
-
-          <section class="terms-section" id="overview">
+           <section class="terms-section" id="overview">
             <h2>1. Overview</h2>
             <p>
               Welcome to Sinergy. By accessing or using this website, you agree to these Terms of Service.
@@ -282,8 +276,8 @@
 
             <div class="contact-box">
               <h3>Sinergy Contact</h3>
-              <p>Email: <a href="mailto:hello@sinergy.com">hello@sinergy.com</a></p>
-              <p>Careers: <a href="mailto:careers@sinergy.com">careers@sinergy.com</a></p>
+              <p>Email: <a href="mailto:admin@sinergyph.com">admin@sinergyph.com</a></p>
+              <p>Careers: <a href="mailto:admin@sinergyph.com">admin@sinergyph.com</a></p>
               <p>Location: Philippines-based outsourcing support for global businesses</p>
             </div>
           </section>

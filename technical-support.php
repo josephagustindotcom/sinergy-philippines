@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Talk to Us About Technical Support</a>
+            <a href="contact" class="btn btn-primary">Talk to Us About Technical Support</a>
             <a href="#technical-tasks" class="btn btn-secondary">View Technical Tasks</a>
           </div>
 
@@ -83,7 +83,7 @@
             and confidence that someone understands the issue. Sinergy helps build technical support
             workflows that make resolution easier and escalation cleaner.
           </p>
-          <a href="contact.php" class="btn btn-primary">Start Technical Support Setup</a>
+          <a href="contact" class="btn btn-primary">Start Technical Support Setup</a>
         </div>
 
         <div class="intro-list">
@@ -334,25 +334,25 @@
           <article class="related-card">
             <h3>Customer Support</h3>
             <p>For email, chat, phone, ticket handling, customer inquiries, complaints, and follow-ups.</p>
-            <a href="customer-support.php">Learn More →</a>
+            <a href="customer-support">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Sales Services</h3>
             <p>For lead generation, outbound calling, appointment setting, and CRM support.</p>
-            <a href="sales-services.php">Learn More →</a>
+            <a href="sales-services">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Data Entry & Verification</h3>
             <p>For cleaner records, admin databases, CRM updates, form processing, and validation.</p>
-            <a href="data-entry-verification.php">Learn More →</a>
+            <a href="data-entry-verification">Learn More →</a>
           </article>
 
           <article class="related-card">
             <h3>Data Annotation</h3>
             <p>For AI and machine learning datasets that require tagging, labeling, and quality checks.</p>
-            <a href="data-annotation.php">Learn More →</a>
+            <a href="data-annotation">Learn More →</a>
           </article>
         </div>
       </div>
@@ -370,7 +370,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Talk to Us About Technical Support</a>
+          <a href="contact" class="btn btn-primary">Talk to Us About Technical Support</a>
         </div>
       </div>
     </section>

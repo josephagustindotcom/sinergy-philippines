@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Find Your Support Fit</a>
+            <a href="contact" class="btn btn-primary">Find Your Support Fit</a>
             <a href="#industry-overview" class="btn btn-secondary">View Industries</a>
           </div>
 
@@ -419,7 +419,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Find Your Support Fit</a>
+          <a href="contact" class="btn btn-primary">Find Your Support Fit</a>
         </div>
       </div>
     </section>

@@ -7,3 +7,4 @@ define('SMTP_PASS',    'your-brevo-smtp-key');
 define('FROM_EMAIL',   'admin@yourdomain.com');
 define('ADMIN_EMAIL',  'admin@yourdomain.com');
 define('CAREERS_EMAIL','careers@yourdomain.com');
+define('OPENAI_API_KEY','your-openai-api-key');

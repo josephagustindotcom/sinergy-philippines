@@ -1,19 +1,18 @@
 <?php
-$current = basename($_SERVER['PHP_SELF']);
+$current = str_replace('.php', '', basename($_SERVER['PHP_SELF']));
 
 $nav_links = [
-  'index.php'       => 'Home',
-  'services.php'    => 'Services',
-  'industries.php'  => 'Industries',
-  'how-it-works.php'=> 'How It Works',
-  'why-sinergy.php' => 'Why Sinergy',
-  'about.php'       => 'About',
-  'careers.php'     => 'Careers',
+    'index'        => ['url' => '/',            'label' => 'Home'],
+    'services'     => ['url' => 'services',     'label' => 'Services'],
+    'industries'   => ['url' => 'industries',   'label' => 'Industries'],
+    'how-it-works' => ['url' => 'how-it-works', 'label' => 'How It Works'],
+    'why-sinergy'  => ['url' => 'why-sinergy',  'label' => 'Why Sinergy'],
+    'about'        => ['url' => 'about',        'label' => 'About'],
+    'careers'      => ['url' => 'careers',      'label' => 'Careers'],
 ];
 ?>
-
 <nav class="nav" id="mainNav" aria-label="Main navigation">
-  <?php foreach ($nav_links as $file => $label): ?>
-    <a href="<?= $file ?>"<?= $current === $file ? ' class="active"' : '' ?>><?= $label ?></a>
+  <?php foreach ($nav_links as $key => $item): ?>
+    <a href="<?= $item['url'] ?>"<?= $current === $key ? ' class="active"' : '' ?>><?= $item['label'] ?></a>
   <?php endforeach; ?>
 </nav>

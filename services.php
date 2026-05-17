@@ -17,7 +17,7 @@
           </p>
 
           <div class="hero-actions">
-            <a href="contact.php" class="btn btn-primary">Get a Quote</a>
+            <a href="contact" class="btn btn-primary">Get a Quote</a>
             <a href="#service-details" class="btn btn-secondary">View Services</a>
           </div>
         </div>
@@ -95,7 +95,7 @@
               <li>Chat support</li>
               <li>Phone support</li>
             </ul>
-            <a href="customer-support.php" class="learn-link">Learn More →</a>
+            <a href="customer-support" class="learn-link">Learn More →</a>
           </article>
 
           <article class="service-card">
@@ -107,7 +107,7 @@
               <li>Issue triage</li>
               <li>Escalation handling</li>
             </ul>
-            <a href="technical-support.php" class="learn-link">Learn More →</a>
+            <a href="technical-support" class="learn-link">Learn More →</a>
           </article>
 
           <article class="service-card">
@@ -119,7 +119,7 @@
               <li>Outbound calling</li>
               <li>Appointment setting</li>
             </ul>
-            <a href="sales-services.php" class="learn-link">Learn More →</a>
+            <a href="sales-services" class="learn-link">Learn More →</a>
           </article>
 
           <article class="service-card">
@@ -131,7 +131,7 @@
               <li>Record validation</li>
               <li>Quality checking</li>
             </ul>
-            <a href="data-entry-verification.php" class="learn-link">Learn More →</a>
+            <a href="data-entry-verification" class="learn-link">Learn More →</a>
           </article>
 
           <article class="service-card">
@@ -143,7 +143,7 @@
               <li>Text labeling</li>
               <li>Audio annotation</li>
             </ul>
-            <a href="data-annotation.php" class="learn-link">Learn More →</a>
+            <a href="data-annotation" class="learn-link">Learn More →</a>
           </article>
         </div>
       </div>
@@ -195,7 +195,7 @@
                 </div>
               </div>
 
-              <a href="customer-support.php" class="btn btn-secondary">View Customer Support</a>
+              <a href="customer-support" class="btn btn-secondary">View Customer Support</a>
             </div>
           </article>
 
@@ -232,7 +232,7 @@
                 </div>
               </div>
 
-              <a href="technical-support.php" class="btn btn-secondary">View Technical Support</a>
+              <a href="technical-support" class="btn btn-secondary">View Technical Support</a>
             </div>
           </article>
 
@@ -269,7 +269,7 @@
                 </div>
               </div>
 
-              <a href="sales-services.php" class="btn btn-secondary">View Sales Services</a>
+              <a href="sales-services" class="btn btn-secondary">View Sales Services</a>
             </div>
           </article>
 
@@ -306,7 +306,7 @@
                 </div>
               </div>
 
-              <a href="data-entry-verification.php" class="btn btn-secondary">View Data Services</a>
+              <a href="data-entry-verification" class="btn btn-secondary">View Data Services</a>
             </div>
           </article>
 
@@ -343,7 +343,7 @@
                 </div>
               </div>
 
-              <a href="data-annotation.php" class="btn btn-secondary">View Data Annotation</a>
+              <a href="data-annotation" class="btn btn-secondary">View Data Annotation</a>
             </div>
           </article>
         </div>
@@ -497,7 +497,7 @@
             </p>
           </div>
 
-          <a href="contact.php" class="btn btn-primary">Request a Custom Quote</a>
+          <a href="contact" class="btn btn-primary">Request a Custom Quote</a>
         </div>
       </div>
     </section>
